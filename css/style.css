@@ -274,10 +274,6 @@ img{
 	align-items: center;
 	justify-content: center;
 }
-.preloader.fade-out{
-	opacity: 0;
-	transition: all 0.6s ease;
-}
 .preloader .box{
 	width: 65px;
 	display: flex;
@@ -304,6 +300,10 @@ img{
 	50%{
 		transform: translateY(-30px);
 	}
+}
+.preloader.fade-out{
+	opacity: 0;
+	transition: all 0.6s ease;
 }
 
 
@@ -571,6 +571,7 @@ header
 }
 .home-selection .home-img .img-box img:hover{
 	filter: grayscale(0%);
+	border: 0 solid transparent;
 }
 
 /*about section*/
